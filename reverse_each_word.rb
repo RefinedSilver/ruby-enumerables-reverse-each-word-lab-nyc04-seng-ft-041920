@@ -4,7 +4,7 @@ def reverse_each_word string
 
   string.each  { |x| reversed_string << x.reverse }
 
-  reversed_string.join(" ")
+  reversed_string.join " "
 end
 def reverse_each_word string
   string = string.split " "
